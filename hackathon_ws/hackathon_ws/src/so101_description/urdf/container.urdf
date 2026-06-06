@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<robot name="liquid_container">
+  <link name="container_link">
+    <inertial>
+      <mass value="0.2"/> 
+      <origin xyz="0 0 0.05"/>
+      <inertia ixx="0.0001" ixy="0" ixz="0" iyy="0.0001" iyz="0" izz="0.0001"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="package://so101_description/meshes/container.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+    <collision>
+      <geometry>
+        <mesh filename="package://so101_description/meshes/container.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+  </link>
+  
+  <gazebo reference="container_link">
+    <material>Gazebo/Yellow</material>
+    <mu1>1.0</mu1>
+    <mu2>1.0</mu2>
+    <self_collide>true</self_collide>
+  </gazebo>
+</robot>

@@ -1,0 +1,46 @@
+[0.488s] Invoking command in '/home/shourya007/hackathon_ws/build/so101_gazebo': PYTHONPATH=/home/shourya007/hackathon_ws/build/so101_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shourya007/hackathon_ws/install/so101_gazebo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/shourya007/hackathon_ws/build/so101_gazebo/build --no-deps symlink_data
+[0.706s] running develop
+[0.827s] running egg_info
+[0.827s] creating so101_gazebo.egg-info
+[0.827s] writing so101_gazebo.egg-info/PKG-INFO
+[0.827s] writing dependency_links to so101_gazebo.egg-info/dependency_links.txt
+[0.827s] writing entry points to so101_gazebo.egg-info/entry_points.txt
+[0.827s] writing requirements to so101_gazebo.egg-info/requires.txt
+[0.827s] writing top-level names to so101_gazebo.egg-info/top_level.txt
+[0.828s] writing manifest file 'so101_gazebo.egg-info/SOURCES.txt'
+[0.829s] reading manifest file 'so101_gazebo.egg-info/SOURCES.txt'
+[0.830s] writing manifest file 'so101_gazebo.egg-info/SOURCES.txt'
+[0.831s] running build_ext
+[0.831s] Creating /home/shourya007/hackathon_ws/install/so101_gazebo/lib/python3.10/site-packages/so101-gazebo.egg-link (link to .)
+[0.831s] 
+[0.832s] Installed /home/shourya007/hackathon_ws/build/so101_gazebo
+[0.832s] running symlink_data
+[0.832s] creating /home/shourya007/hackathon_ws/install/so101_gazebo/share/ament_index
+[0.832s] creating /home/shourya007/hackathon_ws/install/so101_gazebo/share/ament_index/resource_index
+[0.832s] creating /home/shourya007/hackathon_ws/install/so101_gazebo/share/ament_index/resource_index/packages
+[0.832s] symbolically linking /home/shourya007/hackathon_ws/build/so101_gazebo/resource/so101_gazebo -> /home/shourya007/hackathon_ws/install/so101_gazebo/share/ament_index/resource_index/packages
+[0.832s] symbolically linking /home/shourya007/hackathon_ws/build/so101_gazebo/package.xml -> /home/shourya007/hackathon_ws/install/so101_gazebo/share/so101_gazebo
+[0.832s] creating /home/shourya007/hackathon_ws/install/so101_gazebo/share/so101_gazebo/launch
+[0.832s] symbolically linking /home/shourya007/hackathon_ws/build/so101_gazebo/launch/so101_gazebo.launch.py -> /home/shourya007/hackathon_ws/install/so101_gazebo/share/so101_gazebo/launch
+[0.832s] creating /home/shourya007/hackathon_ws/install/so101_gazebo/share/so101_gazebo/urdf
+[0.832s] symbolically linking /home/shourya007/hackathon_ws/build/so101_gazebo/urdf/so101.urdf -> /home/shourya007/hackathon_ws/install/so101_gazebo/share/so101_gazebo/urdf
+[0.832s] creating /home/shourya007/hackathon_ws/install/so101_gazebo/share/so101_gazebo/meshes
+[0.832s] symbolically linking /home/shourya007/hackathon_ws/build/so101_gazebo/meshes/under_arm_so101_v1.stl -> /home/shourya007/hackathon_ws/install/so101_gazebo/share/so101_gazebo/meshes
+[0.832s] symbolically linking /home/shourya007/hackathon_ws/build/so101_gazebo/meshes/d435i.stl -> /home/shourya007/hackathon_ws/install/so101_gazebo/share/so101_gazebo/meshes
+[0.832s] symbolically linking /home/shourya007/hackathon_ws/build/so101_gazebo/meshes/motor_holder_so101_wrist_v1.stl -> /home/shourya007/hackathon_ws/install/so101_gazebo/share/so101_gazebo/meshes
+[0.832s] symbolically linking /home/shourya007/hackathon_ws/build/so101_gazebo/meshes/rotation_pitch_so101_v1.stl -> /home/shourya007/hackathon_ws/install/so101_gazebo/share/so101_gazebo/meshes
+[0.832s] symbolically linking /home/shourya007/hackathon_ws/build/so101_gazebo/meshes/jaw.stl -> /home/shourya007/hackathon_ws/install/so101_gazebo/share/so101_gazebo/meshes
+[0.832s] symbolically linking /home/shourya007/hackathon_ws/build/so101_gazebo/meshes/wrist_roll_pitch_so101_v2.stl -> /home/shourya007/hackathon_ws/install/so101_gazebo/share/so101_gazebo/meshes
+[0.832s] symbolically linking /home/shourya007/hackathon_ws/build/so101_gazebo/meshes/upper_arm_so101_v1.stl -> /home/shourya007/hackathon_ws/install/so101_gazebo/share/so101_gazebo/meshes
+[0.833s] symbolically linking /home/shourya007/hackathon_ws/build/so101_gazebo/meshes/wrist_roll_follower_so101_v1.stl -> /home/shourya007/hackathon_ws/install/so101_gazebo/share/so101_gazebo/meshes
+[0.833s] symbolically linking /home/shourya007/hackathon_ws/build/so101_gazebo/meshes/motor_holder_so101_base_v1.stl -> /home/shourya007/hackathon_ws/install/so101_gazebo/share/so101_gazebo/meshes
+[0.833s] symbolically linking /home/shourya007/hackathon_ws/build/so101_gazebo/meshes/waveshare_mounting_plate_so101_v2.stl -> /home/shourya007/hackathon_ws/install/so101_gazebo/share/so101_gazebo/meshes
+[0.833s] symbolically linking /home/shourya007/hackathon_ws/build/so101_gazebo/meshes/moving_jaw_so101_v1.stl -> /home/shourya007/hackathon_ws/install/so101_gazebo/share/so101_gazebo/meshes
+[0.833s] symbolically linking /home/shourya007/hackathon_ws/build/so101_gazebo/meshes/base_motor_holder_so101_v1.stl -> /home/shourya007/hackathon_ws/install/so101_gazebo/share/so101_gazebo/meshes
+[0.833s] symbolically linking /home/shourya007/hackathon_ws/build/so101_gazebo/meshes/sts3215_03a_v1.stl -> /home/shourya007/hackathon_ws/install/so101_gazebo/share/so101_gazebo/meshes
+[0.833s] symbolically linking /home/shourya007/hackathon_ws/build/so101_gazebo/meshes/base_so101_v2.stl -> /home/shourya007/hackathon_ws/install/so101_gazebo/share/so101_gazebo/meshes
+[0.833s] symbolically linking /home/shourya007/hackathon_ws/build/so101_gazebo/meshes/sts3215_03a_no_horn_v1.stl -> /home/shourya007/hackathon_ws/install/so101_gazebo/share/so101_gazebo/meshes
+[0.833s] symbolically linking /home/shourya007/hackathon_ws/build/so101_gazebo/meshes/moving_jaw.stl -> /home/shourya007/hackathon_ws/install/so101_gazebo/share/so101_gazebo/meshes
+[0.833s] creating /home/shourya007/hackathon_ws/install/so101_gazebo/share/so101_gazebo/worlds
+[0.833s] symbolically linking /home/shourya007/hackathon_ws/build/so101_gazebo/worlds/empty_world.sdf -> /home/shourya007/hackathon_ws/install/so101_gazebo/share/so101_gazebo/worlds
+[0.861s] Invoked command in '/home/shourya007/hackathon_ws/build/so101_gazebo' returned '0': PYTHONPATH=/home/shourya007/hackathon_ws/build/so101_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shourya007/hackathon_ws/install/so101_gazebo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/shourya007/hackathon_ws/build/so101_gazebo/build --no-deps symlink_data

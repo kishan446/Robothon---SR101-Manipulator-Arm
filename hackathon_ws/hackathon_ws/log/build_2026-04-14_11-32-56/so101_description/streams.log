@@ -1,0 +1,58 @@
+[0.011s] Invoking command in '/home/shourya007/hackathon_ws/build/so101_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shourya007/hackathon_ws/install/so101_gazebo:/home/shourya007/ros2_ws/install/unique_status:/home/shourya007/ros2_ws/install/simple_robot:/home/shourya007/ros2_ws/install/service_action_lab:/opt/ros/humble /usr/bin/cmake /home/shourya007/hackathon_ws/src/so101_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shourya007/hackathon_ws/install/so101_description
+[0.059s] -- The C compiler identification is GNU 11.4.0
+[0.106s] -- The CXX compiler identification is GNU 11.4.0
+[0.114s] -- Detecting C compiler ABI info
+[0.180s] -- Detecting C compiler ABI info - done
+[0.186s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.186s] -- Detecting C compile features
+[0.186s] -- Detecting C compile features - done
+[0.188s] -- Detecting CXX compiler ABI info
+[0.265s] -- Detecting CXX compiler ABI info - done
+[0.270s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.270s] -- Detecting CXX compile features
+[0.271s] -- Detecting CXX compile features - done
+[0.273s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.406s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.464s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.550s] -- Configuring done
+[0.553s] -- Generating done
+[0.554s] -- Build files have been written to: /home/shourya007/hackathon_ws/build/so101_description
+[0.558s] Invoked command in '/home/shourya007/hackathon_ws/build/so101_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shourya007/hackathon_ws/install/so101_gazebo:/home/shourya007/ros2_ws/install/unique_status:/home/shourya007/ros2_ws/install/simple_robot:/home/shourya007/ros2_ws/install/service_action_lab:/opt/ros/humble /usr/bin/cmake /home/shourya007/hackathon_ws/src/so101_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shourya007/hackathon_ws/install/so101_description
+[0.560s] Invoking command in '/home/shourya007/hackathon_ws/build/so101_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shourya007/hackathon_ws/install/so101_gazebo:/home/shourya007/ros2_ws/install/unique_status:/home/shourya007/ros2_ws/install/simple_robot:/home/shourya007/ros2_ws/install/service_action_lab:/opt/ros/humble /usr/bin/cmake --build /home/shourya007/hackathon_ws/build/so101_description -- -j16 -l16
+[0.600s] Invoked command in '/home/shourya007/hackathon_ws/build/so101_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shourya007/hackathon_ws/install/so101_gazebo:/home/shourya007/ros2_ws/install/unique_status:/home/shourya007/ros2_ws/install/simple_robot:/home/shourya007/ros2_ws/install/service_action_lab:/opt/ros/humble /usr/bin/cmake --build /home/shourya007/hackathon_ws/build/so101_description -- -j16 -l16
+[0.612s] Invoking command in '/home/shourya007/hackathon_ws/build/so101_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shourya007/hackathon_ws/install/so101_gazebo:/home/shourya007/ros2_ws/install/unique_status:/home/shourya007/ros2_ws/install/simple_robot:/home/shourya007/ros2_ws/install/service_action_lab:/opt/ros/humble /usr/bin/cmake --install /home/shourya007/hackathon_ws/build/so101_description
+[0.618s] -- Install configuration: ""
+[0.618s] -- Execute custom install script
+[0.619s] -- Symlinking: /home/shourya007/hackathon_ws/install/so101_description/share/so101_description/urdf/so101.urdf
+[0.629s] -- Symlinking: /home/shourya007/hackathon_ws/install/so101_description/share/so101_description/meshes/base_motor_holder_so101_v1.stl
+[0.638s] -- Symlinking: /home/shourya007/hackathon_ws/install/so101_description/share/so101_description/meshes/base_so101_v2.stl
+[0.647s] -- Symlinking: /home/shourya007/hackathon_ws/install/so101_description/share/so101_description/meshes/d435i.stl
+[0.658s] -- Symlinking: /home/shourya007/hackathon_ws/install/so101_description/share/so101_description/meshes/jaw.stl
+[0.668s] -- Symlinking: /home/shourya007/hackathon_ws/install/so101_description/share/so101_description/meshes/motor_holder_so101_base_v1.stl
+[0.677s] -- Symlinking: /home/shourya007/hackathon_ws/install/so101_description/share/so101_description/meshes/motor_holder_so101_wrist_v1.stl
+[0.686s] -- Symlinking: /home/shourya007/hackathon_ws/install/so101_description/share/so101_description/meshes/moving_jaw.stl
+[0.695s] -- Symlinking: /home/shourya007/hackathon_ws/install/so101_description/share/so101_description/meshes/moving_jaw_so101_v1.stl
+[0.705s] -- Symlinking: /home/shourya007/hackathon_ws/install/so101_description/share/so101_description/meshes/rotation_pitch_so101_v1.stl
+[0.715s] -- Symlinking: /home/shourya007/hackathon_ws/install/so101_description/share/so101_description/meshes/sts3215_03a_no_horn_v1.stl
+[0.725s] -- Symlinking: /home/shourya007/hackathon_ws/install/so101_description/share/so101_description/meshes/sts3215_03a_v1.stl
+[0.734s] -- Symlinking: /home/shourya007/hackathon_ws/install/so101_description/share/so101_description/meshes/under_arm_so101_v1.stl
+[0.743s] -- Symlinking: /home/shourya007/hackathon_ws/install/so101_description/share/so101_description/meshes/upper_arm_so101_v1.stl
+[0.752s] -- Symlinking: /home/shourya007/hackathon_ws/install/so101_description/share/so101_description/meshes/waveshare_mounting_plate_so101_v2.stl
+[0.761s] -- Symlinking: /home/shourya007/hackathon_ws/install/so101_description/share/so101_description/meshes/wrist_roll_follower_so101_v1.stl
+[0.772s] -- Symlinking: /home/shourya007/hackathon_ws/install/so101_description/share/so101_description/meshes/wrist_roll_pitch_so101_v2.stl
+[0.781s] -- Symlinking: /home/shourya007/hackathon_ws/install/so101_description/share/ament_index/resource_index/package_run_dependencies/so101_description
+[0.791s] -- Symlinking: /home/shourya007/hackathon_ws/install/so101_description/share/ament_index/resource_index/parent_prefix_path/so101_description
+[0.800s] -- Symlinking: /home/shourya007/hackathon_ws/install/so101_description/share/so101_description/environment/ament_prefix_path.sh
+[0.808s] -- Symlinking: /home/shourya007/hackathon_ws/install/so101_description/share/so101_description/environment/ament_prefix_path.dsv
+[0.818s] -- Symlinking: /home/shourya007/hackathon_ws/install/so101_description/share/so101_description/environment/path.sh
+[0.827s] -- Symlinking: /home/shourya007/hackathon_ws/install/so101_description/share/so101_description/environment/path.dsv
+[0.836s] -- Symlinking: /home/shourya007/hackathon_ws/install/so101_description/share/so101_description/local_setup.bash
+[0.845s] -- Symlinking: /home/shourya007/hackathon_ws/install/so101_description/share/so101_description/local_setup.sh
+[0.854s] -- Symlinking: /home/shourya007/hackathon_ws/install/so101_description/share/so101_description/local_setup.zsh
+[0.864s] -- Symlinking: /home/shourya007/hackathon_ws/install/so101_description/share/so101_description/local_setup.dsv
+[0.873s] -- Symlinking: /home/shourya007/hackathon_ws/install/so101_description/share/so101_description/package.dsv
+[0.881s] -- Symlinking: /home/shourya007/hackathon_ws/install/so101_description/share/ament_index/resource_index/packages/so101_description
+[0.890s] -- Symlinking: /home/shourya007/hackathon_ws/install/so101_description/share/so101_description/cmake/so101_descriptionConfig.cmake
+[0.898s] -- Symlinking: /home/shourya007/hackathon_ws/install/so101_description/share/so101_description/cmake/so101_descriptionConfig-version.cmake
+[0.908s] -- Symlinking: /home/shourya007/hackathon_ws/install/so101_description/share/so101_description/package.xml
+[0.919s] Invoked command in '/home/shourya007/hackathon_ws/build/so101_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shourya007/hackathon_ws/install/so101_gazebo:/home/shourya007/ros2_ws/install/unique_status:/home/shourya007/ros2_ws/install/simple_robot:/home/shourya007/ros2_ws/install/service_action_lab:/opt/ros/humble /usr/bin/cmake --install /home/shourya007/hackathon_ws/build/so101_description

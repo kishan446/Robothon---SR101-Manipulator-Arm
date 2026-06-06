@@ -1,0 +1,65 @@
+[0.010s] Invoking command in '/home/shourya007/hackathon_ws/build/so101_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shourya007/ros2_ws/install/unique_status:/home/shourya007/ros2_ws/install/simple_robot:/home/shourya007/ros2_ws/install/service_action_lab:/opt/ros/humble /usr/bin/cmake /home/shourya007/hackathon_ws/src/so101_description -DCMAKE_INSTALL_PREFIX=/home/shourya007/hackathon_ws/install/so101_description
+[0.057s] -- The C compiler identification is GNU 11.4.0
+[0.105s] -- The CXX compiler identification is GNU 11.4.0
+[0.112s] -- Detecting C compiler ABI info
+[0.177s] -- Detecting C compiler ABI info - done
+[0.183s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.183s] -- Detecting C compile features
+[0.183s] -- Detecting C compile features - done
+[0.186s] -- Detecting CXX compiler ABI info
+[0.261s] -- Detecting CXX compiler ABI info - done
+[0.266s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.266s] -- Detecting CXX compile features
+[0.267s] -- Detecting CXX compile features - done
+[0.269s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.393s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.517s] -- Configuring done
+[0.519s] -- Generating done
+[0.520s] -- Build files have been written to: /home/shourya007/hackathon_ws/build/so101_description
+[0.526s] Invoked command in '/home/shourya007/hackathon_ws/build/so101_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shourya007/ros2_ws/install/unique_status:/home/shourya007/ros2_ws/install/simple_robot:/home/shourya007/ros2_ws/install/service_action_lab:/opt/ros/humble /usr/bin/cmake /home/shourya007/hackathon_ws/src/so101_description -DCMAKE_INSTALL_PREFIX=/home/shourya007/hackathon_ws/install/so101_description
+[0.526s] Invoking command in '/home/shourya007/hackathon_ws/build/so101_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shourya007/ros2_ws/install/unique_status:/home/shourya007/ros2_ws/install/simple_robot:/home/shourya007/ros2_ws/install/service_action_lab:/opt/ros/humble /usr/bin/cmake --build /home/shourya007/hackathon_ws/build/so101_description -- -j16 -l16
+[0.561s] Invoked command in '/home/shourya007/hackathon_ws/build/so101_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shourya007/ros2_ws/install/unique_status:/home/shourya007/ros2_ws/install/simple_robot:/home/shourya007/ros2_ws/install/service_action_lab:/opt/ros/humble /usr/bin/cmake --build /home/shourya007/hackathon_ws/build/so101_description -- -j16 -l16
+[0.569s] Invoking command in '/home/shourya007/hackathon_ws/build/so101_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shourya007/ros2_ws/install/unique_status:/home/shourya007/ros2_ws/install/simple_robot:/home/shourya007/ros2_ws/install/service_action_lab:/opt/ros/humble /usr/bin/cmake --install /home/shourya007/hackathon_ws/build/so101_description
+[0.574s] -- Install configuration: ""
+[0.574s] -- Installing: /home/shourya007/hackathon_ws/install/so101_description/share/so101_description/urdf
+[0.574s] -- Installing: /home/shourya007/hackathon_ws/install/so101_description/share/so101_description/urdf/so101.urdf
+[0.574s] -- Installing: /home/shourya007/hackathon_ws/install/so101_description/share/so101_description/urdf/marking_initial.urdf
+[0.575s] -- Installing: /home/shourya007/hackathon_ws/install/so101_description/share/so101_description/urdf/water_particle.urdf
+[0.575s] -- Installing: /home/shourya007/hackathon_ws/install/so101_description/share/so101_description/urdf/marking_final.urdf
+[0.575s] -- Installing: /home/shourya007/hackathon_ws/install/so101_description/share/so101_description/urdf/container.urdf
+[0.575s] -- Installing: /home/shourya007/hackathon_ws/install/so101_description/share/so101_description/meshes
+[0.575s] -- Installing: /home/shourya007/hackathon_ws/install/so101_description/share/so101_description/meshes/under_arm_so101_v1.stl
+[0.577s] -- Installing: /home/shourya007/hackathon_ws/install/so101_description/share/so101_description/meshes/d435i.stl
+[0.577s] -- Installing: /home/shourya007/hackathon_ws/install/so101_description/share/so101_description/meshes/marking.stl
+[0.578s] -- Installing: /home/shourya007/hackathon_ws/install/so101_description/share/so101_description/meshes/motor_holder_so101_wrist_v1.stl
+[0.579s] -- Installing: /home/shourya007/hackathon_ws/install/so101_description/share/so101_description/meshes/rotation_pitch_so101_v1.stl
+[0.580s] -- Installing: /home/shourya007/hackathon_ws/install/so101_description/share/so101_description/meshes/jaw.stl
+[0.580s] -- Installing: /home/shourya007/hackathon_ws/install/so101_description/share/so101_description/meshes/bowl.stl
+[0.581s] -- Installing: /home/shourya007/hackathon_ws/install/so101_description/share/so101_description/meshes/wrist_roll_pitch_so101_v2.stl
+[0.583s] -- Installing: /home/shourya007/hackathon_ws/install/so101_description/share/so101_description/meshes/upper_arm_so101_v1.stl
+[0.584s] -- Installing: /home/shourya007/hackathon_ws/install/so101_description/share/so101_description/meshes/wrist_roll_follower_so101_v1.stl
+[0.586s] -- Installing: /home/shourya007/hackathon_ws/install/so101_description/share/so101_description/meshes/motor_holder_so101_base_v1.stl
+[0.587s] -- Installing: /home/shourya007/hackathon_ws/install/so101_description/share/so101_description/meshes/container.stl
+[0.587s] -- Installing: /home/shourya007/hackathon_ws/install/so101_description/share/so101_description/meshes/waveshare_mounting_plate_so101_v2.stl
+[0.587s] -- Installing: /home/shourya007/hackathon_ws/install/so101_description/share/so101_description/meshes/moving_jaw_so101_v1.stl
+[0.589s] -- Installing: /home/shourya007/hackathon_ws/install/so101_description/share/so101_description/meshes/base_motor_holder_so101_v1.stl
+[0.591s] -- Installing: /home/shourya007/hackathon_ws/install/so101_description/share/so101_description/meshes/sts3215_03a_v1.stl
+[0.592s] -- Installing: /home/shourya007/hackathon_ws/install/so101_description/share/so101_description/meshes/base_so101_v2.stl
+[0.593s] -- Installing: /home/shourya007/hackathon_ws/install/so101_description/share/so101_description/meshes/sts3215_03a_no_horn_v1.stl
+[0.593s] -- Installing: /home/shourya007/hackathon_ws/install/so101_description/share/so101_description/meshes/moving_jaw.stl
+[0.594s] -- Installing: /home/shourya007/hackathon_ws/install/so101_description/share/ament_index/resource_index/package_run_dependencies/so101_description
+[0.594s] -- Installing: /home/shourya007/hackathon_ws/install/so101_description/share/ament_index/resource_index/parent_prefix_path/so101_description
+[0.594s] -- Installing: /home/shourya007/hackathon_ws/install/so101_description/share/so101_description/environment/ament_prefix_path.sh
+[0.594s] -- Installing: /home/shourya007/hackathon_ws/install/so101_description/share/so101_description/environment/ament_prefix_path.dsv
+[0.595s] -- Installing: /home/shourya007/hackathon_ws/install/so101_description/share/so101_description/environment/path.sh
+[0.595s] -- Installing: /home/shourya007/hackathon_ws/install/so101_description/share/so101_description/environment/path.dsv
+[0.595s] -- Installing: /home/shourya007/hackathon_ws/install/so101_description/share/so101_description/local_setup.bash
+[0.595s] -- Installing: /home/shourya007/hackathon_ws/install/so101_description/share/so101_description/local_setup.sh
+[0.595s] -- Installing: /home/shourya007/hackathon_ws/install/so101_description/share/so101_description/local_setup.zsh
+[0.595s] -- Installing: /home/shourya007/hackathon_ws/install/so101_description/share/so101_description/local_setup.dsv
+[0.595s] -- Installing: /home/shourya007/hackathon_ws/install/so101_description/share/so101_description/package.dsv
+[0.595s] -- Installing: /home/shourya007/hackathon_ws/install/so101_description/share/ament_index/resource_index/packages/so101_description
+[0.595s] -- Installing: /home/shourya007/hackathon_ws/install/so101_description/share/so101_description/cmake/so101_descriptionConfig.cmake
+[0.596s] -- Installing: /home/shourya007/hackathon_ws/install/so101_description/share/so101_description/cmake/so101_descriptionConfig-version.cmake
+[0.596s] -- Installing: /home/shourya007/hackathon_ws/install/so101_description/share/so101_description/package.xml
+[0.598s] Invoked command in '/home/shourya007/hackathon_ws/build/so101_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shourya007/ros2_ws/install/unique_status:/home/shourya007/ros2_ws/install/simple_robot:/home/shourya007/ros2_ws/install/service_action_lab:/opt/ros/humble /usr/bin/cmake --install /home/shourya007/hackathon_ws/build/so101_description
